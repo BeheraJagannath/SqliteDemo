@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Squlite Tutorial</string>
+    <string name="whoa_you_don_t_have_any_saved_notes_yet">You don\'t have any notes here !</string>
+</resources>

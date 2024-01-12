@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    tools:context=".NewActivity">
+
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:singleLine="true"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/add_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/add_mobilen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:singleLine="true"
+        android:inputType="number"
+        android:hint="Mobile No" />
+
+    <EditText
+        android:id="@+id/add_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_margin="10dp"
+        android:hint="Gender" />
+
+    <TextView
+        android:id="@+id/idBtnAddCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:text="Add"
+        android:textAllCaps="false" />
+
+
+
+</LinearLayout>
